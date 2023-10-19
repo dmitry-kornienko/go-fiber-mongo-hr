@@ -125,7 +125,7 @@ func main() {
 				Value: bson.D{
 					{Key: "name", Value: employee.Name},
 					{Key: "age", Value: employee.Age},
-					{Key: "slalry", Value: employee.Salary},
+					{Key: "salary", Value: employee.Salary},
 				},
 			},
 		}
